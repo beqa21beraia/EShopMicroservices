@@ -18,7 +18,7 @@
                 throw new ProductNotFoundException(); 
             }
 
-            return new GetProductByIdResult(product);
+            return new GetProductByIdResult(product);   
         }
     }
 }
